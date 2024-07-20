@@ -1,0 +1,100 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #e60000;
+  }
+  
+  .task-board {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 30%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .column h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .tasks {
+    min-height: 200px;
+  }
+  
+  .task {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+  }
+  
+  .task h4 {
+    margin: 0;
+  }
+  
+  .task p {
+    margin: 5px 0;
+  }
+  
+  .task-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .task-actions button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-actions button:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .task-actions button:first-child:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-actions button:last-child {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .task-actions button:last-child:hover {
+    background-color: #e60000;
+  }
+  
